@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,10 @@
 		064C6F9E25A8BA7B002E2D75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064C6F9D25A8BA7B002E2D75 /* ContentView.swift */; };
 		064C6FA025A8BA7D002E2D75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 064C6F9F25A8BA7D002E2D75 /* Assets.xcassets */; };
 		064C6FA325A8BA7D002E2D75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 064C6FA225A8BA7D002E2D75 /* Preview Assets.xcassets */; };
+		068A7F6F25A8BCC50086C572 /* TabAyerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068A7F6E25A8BCC50086C572 /* TabAyerView.swift */; };
+		068A7F7325A8C7B90086C572 /* MoreInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068A7F7225A8C7B90086C572 /* MoreInfoView.swift */; };
+		06BBC0D125A8E86D00A08637 /* SuerteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BBC0D025A8E86D00A08637 /* SuerteView.swift */; };
+		547713BE2B954E6A7F8650E9 /* Pods_MasterLoteria.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15227667DB95AA08D35D12E8 /* Pods_MasterLoteria.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,12 @@
 		064C6F9F25A8BA7D002E2D75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		064C6FA225A8BA7D002E2D75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		064C6FA425A8BA7D002E2D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		068A7F6E25A8BCC50086C572 /* TabAyerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabAyerView.swift; sourceTree = "<group>"; };
+		068A7F7225A8C7B90086C572 /* MoreInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoView.swift; sourceTree = "<group>"; };
+		06BBC0D025A8E86D00A08637 /* SuerteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuerteView.swift; sourceTree = "<group>"; };
+		15227667DB95AA08D35D12E8 /* Pods_MasterLoteria.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MasterLoteria.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB9D134FF1A6BF1FE39EB67 /* Pods-MasterLoteria.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasterLoteria.debug.xcconfig"; path = "Target Support Files/Pods-MasterLoteria/Pods-MasterLoteria.debug.xcconfig"; sourceTree = "<group>"; };
+		D6B7C38B4B9136D36F82E8F7 /* Pods-MasterLoteria.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasterLoteria.release.xcconfig"; path = "Target Support Files/Pods-MasterLoteria/Pods-MasterLoteria.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				547713BE2B954E6A7F8650E9 /* Pods_MasterLoteria.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +49,8 @@
 			children = (
 				064C6F9A25A8BA7B002E2D75 /* MasterLoteria */,
 				064C6F9925A8BA7B002E2D75 /* Products */,
+				9124AE922ACD1CA501244822 /* Pods */,
+				7CF1B1E5239E820E98C73DA3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +67,7 @@
 			children = (
 				064C6F9B25A8BA7B002E2D75 /* MasterLoteriaApp.swift */,
 				064C6F9D25A8BA7B002E2D75 /* ContentView.swift */,
+				068A7F6D25A8BC960086C572 /* Tabs */,
 				064C6F9F25A8BA7D002E2D75 /* Assets.xcassets */,
 				064C6FA425A8BA7D002E2D75 /* Info.plist */,
 				064C6FA125A8BA7D002E2D75 /* Preview Content */,
@@ -69,6 +83,33 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		068A7F6D25A8BC960086C572 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				068A7F6E25A8BCC50086C572 /* TabAyerView.swift */,
+				06BBC0D025A8E86D00A08637 /* SuerteView.swift */,
+				068A7F7225A8C7B90086C572 /* MoreInfoView.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		7CF1B1E5239E820E98C73DA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15227667DB95AA08D35D12E8 /* Pods_MasterLoteria.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9124AE922ACD1CA501244822 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8EB9D134FF1A6BF1FE39EB67 /* Pods-MasterLoteria.debug.xcconfig */,
+				D6B7C38B4B9136D36F82E8F7 /* Pods-MasterLoteria.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +117,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 064C6FA725A8BA7D002E2D75 /* Build configuration list for PBXNativeTarget "MasterLoteria" */;
 			buildPhases = (
+				706D8FF63F003B8F75A6456B /* [CP] Check Pods Manifest.lock */,
 				064C6F9425A8BA7B002E2D75 /* Sources */,
 				064C6F9525A8BA7B002E2D75 /* Frameworks */,
 				064C6F9625A8BA7B002E2D75 /* Resources */,
+				B337561F49A7D757DE60F9D6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +176,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		706D8FF63F003B8F75A6456B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MasterLoteria-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B337561F49A7D757DE60F9D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MasterLoteria/Pods-MasterLoteria-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MasterLoteria/Pods-MasterLoteria-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MasterLoteria/Pods-MasterLoteria-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		064C6F9425A8BA7B002E2D75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,6 +225,9 @@
 			files = (
 				064C6F9E25A8BA7B002E2D75 /* ContentView.swift in Sources */,
 				064C6F9C25A8BA7B002E2D75 /* MasterLoteriaApp.swift in Sources */,
+				068A7F6F25A8BCC50086C572 /* TabAyerView.swift in Sources */,
+				06BBC0D125A8E86D00A08637 /* SuerteView.swift in Sources */,
+				068A7F7325A8C7B90086C572 /* MoreInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +352,7 @@
 		};
 		064C6FA825A8BA7D002E2D75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EB9D134FF1A6BF1FE39EB67 /* Pods-MasterLoteria.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +375,7 @@
 		};
 		064C6FA925A8BA7D002E2D75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6B7C38B4B9136D36F82E8F7 /* Pods-MasterLoteria.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
